@@ -1,2 +1,7 @@
-{
+{"id": "b1";
+"enviroment": "Samsung Galaxy s8";
+"summary": "button Log out is on left at page Profile";
+"steps to reproduse": "open app";
+"ER": "button is on right";
+"AR": "button in on left"
 }
