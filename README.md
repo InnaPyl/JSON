@@ -32,11 +32,11 @@ git add .
  10. Отредактировать содержание файла “new.json” - написать информацию о себе. Всё написать в формате JSON.
 ```
 Cat >new.json ИЛИ vim new.json
-{"name": "Inna";
-"surname": Pyl;
-"age": 35;
-"gender": "female";
-"profesion": qa
+{"name": "Inna",
+"surname": "Pyl",
+"age": 35,
+"gender": "female",
+"profesion": "qa"
 }
 ```
  8. Отправить изменения на внешний репозиторий. 
@@ -52,9 +52,9 @@ Cat >new.json ИЛИ vim new.json
  ```
  11. В файл preferences.json добавить информацию о своих предпочтениях в формате JSON 
  ```
- {"my favorive movie": "AmelY";
-"my farourite serial" : "Sex in the city"; 
-"my favourite dish": "pasta";
+ {"my favorive movie": "AmelY",
+"my farourite serial" : "Sex in the city",
+"my favourite dish": "pasta",
 "my favourite city": "Barselona"
 }
 ```
@@ -62,7 +62,7 @@ Cat >new.json ИЛИ vim new.json
  ```
  1. touch sklls.json
  2. cat > sklls.json
- { "skill1": "postman";
+ { "skill1": "postman",
  "skill2": "bash"
  }
  ```
@@ -83,12 +83,13 @@ Add file --> Create new file --> Name: bug_report.json
  15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  ```
  Choose bug_report.json --> Edit this file
-{"id": "b1";
-"enviroment": "Samsung Galaxy s8";
-"summary": "button Log out is on left at page Profile";
-"steps to reproduse": "open app";
-"ER": "button is on right";
+{"id": "b1",
+"enviroment": "Samsung Galaxy s8",
+"summary": "button Log out is on left at page Profile",
+"steps to reproduse": "open app",
+"ER": "button is on right",
 "AR": "button in on left"
+}
 ```
  16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 ```
