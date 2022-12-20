@@ -83,12 +83,16 @@ Add file --> Create new file --> Name: bug_report.json
  15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  ```
  Choose bug_report.json --> Edit this file
-{"id": "b1",
-"enviroment": "Samsung Galaxy s8",
-"summary": "button Log out is on left at page Profile",
-"steps to reproduse": "open app",
-"ER": "button is on right",
-"AR": "button in on left"
+{"ID": "номер",
+"summary": "краткое описание",
+"description": "полное описание",
+"environment": "окружение",
+"steps_to_reproduce": "шаги воспроизведения",
+"actual_resul": "фактический результат",
+"expected_result": "ожидаемый результат",
+"severity": "серьезность",
+"priority": "приоритет",
+"additional_information": "дополнения"
 }
 ```
  16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
