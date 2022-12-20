@@ -1,5 +1,6 @@
-{"name": "Inna";
-"surname": Pyl;
-"age": 35;
-"gender": "female";
-"profesion": qa}
+{"name": "Inna",
+"surname": "Pyl",
+"age": 35,
+"gender": "female",
+"profesion": "qa"
+}
